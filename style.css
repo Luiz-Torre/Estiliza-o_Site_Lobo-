@@ -88,9 +88,10 @@
     .lobo_txt_3{
         display: flex;
         justify-content: center;
-        font-size: 10px;
+        font-size: 7px;
+        font-weight:lighter;
         position: relative;
-        transform: translateY(120%); 
+        transform: translateY(160%); 
         text-align: center;
         left: 0.1%;
 
