@@ -1,9 +1,23 @@
-
+@font-face {
+    font-family: dark1;
+    src: url(./fonte/DarkerGrotesque-Medium.ttf);
+  }
+  @font-face {
+    font-family: dark2;
+    src: url(./fonte/DarkerGrotesque-Bold.ttf);
+  }
+  @font-face {
+    font-family: dark_normal;
+    src: url(./fonte/DarkerGrotesque-Regular.ttf);
+  }
 
 
 @media only screen and (min-width : 200px) {
     body{
-        background-color: #fafafa;
+        background-color: red;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
 
     }
     
@@ -19,6 +33,8 @@
     .cabecalho{
         background-color: rgb(133, 206, 245);
         font-family: 'Darker Grotesque', sans-serif;
+        overflow: hidden;
+
 
 
         
@@ -45,6 +61,8 @@
     .Topo{
         padding: 5px 0px 5px 0px;
         background-color: rgb(133, 206, 245);
+        overflow-x: hidden; 
+
         
 
     }
@@ -55,6 +73,7 @@
         background-image: url("./imgs/lobo3.png");
         background-size:cover;
         background-position: center;
+        overflow: hidden;
 
     }
 
@@ -94,6 +113,113 @@
         left: 0.1%;
 
     }
+
+    .sobre{
+        background-color: rgb(44,86,127);
+        height: 115px;
+        width: 100vw;
+        overflow: hidden;
+
+        
+    }
+
+
+    .sobre_txt{
+        font-family: dark2;
+        color:rgb(222,185,89);
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        transform: translateY(30%); 
+
+        
+    }
+    .sobre_txt_2{
+        font-family: dark_normal;
+        font-size: 13px;
+        color:white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        transform: translateY(30%); 
+    }
+
+
+    .Valores{
+        background-color: rgb(51, 51, 51);
+        height: 240px;
+        width: 100vw;
+        overflow: hidden;
+
+        
+    }
+
+
+    .valores_txt_1{
+        display: flex;
+        justify-content: center;
+        font-family: dark2;
+        color:rgb(222,185,89);
+        font-size: 20px;
+        position: relative;
+        transform: translateY(30%); 
+
+    }
+    .txt_valores_juntos{
+        display: grid;
+        font-family: dark2;
+        color:white;
+        font-size: 15px;
+        flex-wrap: nowrap;
+        grid-template-columns:  26% 19% 31% 30%;
+        position: relative;
+        transform: translateY(200%); 
+        right: -5.5%;
+
+    }
+    .txt_valores_juntos2{
+        display: grid;
+        font-family: dark_normal;
+        color:white;
+        font-size: 10px;
+        flex-wrap: nowrap;
+        grid-template-columns:  28% 21% 24.5% 30%;
+        position: relative;
+        transform: translateY(50%);
+        right: 0.5%;
+        text-align: center;
+
+    }
+
+    
+    .valores_imagens{
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+    .circle {
+        position: relative;
+        transform: translateY(30%); 
+        background-color: rgb(250,250,250);
+        border-radius: 50%;
+        width: 70px;
+        height: 70px;
+        position: relative;
+        
+      }
+
+      .circle img {
+        position: relative;
+        height:50px;
+        width: 50px;
+        bottom: -15%;
+        right: -12%;
+      }
+
+      
 
 
 
