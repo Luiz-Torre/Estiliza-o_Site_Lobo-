@@ -52,6 +52,16 @@
         
     }
 
+    .traco{
+        font-size: 90px;
+        position: absolute;
+        color: rgb(51, 51, 51);
+        right: 12%;
+        font-family: dark_normal;
+        transform: translateY(-27%);
+
+    }
+
     .itens{
         display: flex;
         justify-content: space-around;
@@ -68,6 +78,8 @@
         text-decoration: none;
         color: rgb(51,51,51);
         font-weight: 600;
+        z-index: 1;
+
         }
 
     .Topo{
@@ -186,7 +198,7 @@
         color:white;
         font-size: 20px;
         flex-wrap: nowrap;
-        grid-template-columns:  26% 20% 29% 30%;
+        grid-template-columns:  25.5% 21% 29% 30%;
         position: relative;
         transform: translateY(160%); 
         right: -8%;
@@ -198,7 +210,7 @@
         color:white;
         font-size: 13px;
         flex-wrap: nowrap;
-        grid-template-columns:  29% 23% 22% 30%;
+        grid-template-columns:  27.2% 26% 20.5% 30%;
         position: relative;
         transform: translateY(40%);
         left: -1.5%;

@@ -44,7 +44,6 @@
 
     .cabecalho{
         background-color: rgb(133, 206, 245);
-        font-family: 'Darker Grotesque', sans-serif;
         overflow: hidden;
 
 
@@ -58,6 +57,15 @@
         position: relative;
         left: -2%;
     }
+    .traco{
+        font-size: 90px;
+        position: absolute;
+        color: rgb(51, 51, 51);
+        right: 8%;
+        font-family: dark_normal;
+        transform: translateY(-27%);
+
+    }
 
     .sites_topo{
         font-size: 11px;
@@ -68,6 +76,7 @@
         text-decoration: none;
         color: rgb(51,51,51);
         font-weight: 600;
+        z-index: 1;
         }
 
     .Topo{
