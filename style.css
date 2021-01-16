@@ -14,10 +14,22 @@
 
 @media only screen and (min-width : 200px) {
     body{
-        background-color: red;
+        background-color: rgb(51,51,51);
+        overflow-x: hidden;
+
+    }
+    footer{
+        overflow-x: hidden;
+        font-family: dark_normal;
+        background-color: rgb(51,51,51);
         width: 100vw;
-        height: 100vh;
-        overflow: hidden;
+        height: 120px;
+        border-top: 3px solid;
+        border-image-source: linear-gradient(120deg, rgb(221,185,89), rgb(44,86,127));
+        border-image-slice: 1;  
+        overflow-x: hidden;
+        font-size: 10px;
+        color:white
 
     }
     
@@ -219,28 +231,165 @@
         right: -12%;
       }
 
-      
+
+      .fotos{
+          background-color: white;
+          width: 100vw;
+          height: 350px;
+      }
+      .quadrado{
+          height: 100px;
+          width: 150px;
+          background-color: rgb(44,86,128);
+          border: 2px solid rgb(51,51,51);
+          position: relative;
+          left: 8vw;
+          bottom: -20px;
+
+      }
+      .quadrado img {
+        position: relative;
+        height:100px;
+        width: 150px;
+        transform: translate(10%,12.7%);
+      }
+      .terceira_sessao{
+          position: relative;
+          display: grid;
+          grid-template-columns:  58% 40% ;
+        }
+        
+      .Nome{
+          color: black;
+          font-size: 20px;
+          font-family: dark2;
+
+        }
+        .idade{
+            color: black;
+          font-size: 10px;
+          font-family: dark_normal;
+        }
+        .descricao{
+            color: black;
+          font-size: 12.5px;
+          font-family: dark_normal;
+          text-align: center;
+        }
+      .uniaotxt{
+          position: relative;
+          top: 21%;
+      }
+
+      .descricao2{
+        color: black;
+      font-size: 12.5px;
+      font-family: dark_normal;
+    }
+      .uniaotxt2{
+          position: relative;
+          bottom: -50px;
+          text-align: right;
+          display: grid;
+          grid-template-columns:  75% 40% ;
+
+      }
+      .quadrado2{
+        height: 100px;
+        width: 150px;
+        background-color: rgb(44,86,128);
+        border: 2px solid rgb(51,51,51);
+        position: relative;
+        left: -5vw;
+        bottom: -55px;
+
+    }
+    .quadrado2 img {
+      position: relative;
+      height:100px;
+      width: 150px;
+      transform: translate(-10%,12.7%);
+    }
+    .exemplo_txt{
+        font-family: dark2;
+        color:rgb(222,185,89);
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        transform: translateY(30%); 
+        text-shadow: 0.5px 0.5px rgba(24, 24, 24, 0.87);
+    }
+
+
+    .rodape{
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        top: 10%;
+    }
 
 
 
+    .mapaimagem{
+        height: 80px;
+        width: 130px;
+        position: relative;
+    }
+
+    .endereco{
+        padding: 0px 0px 2px 25px;
+        list-style: none;
+        background-image: url("./imgs/simbolomapa.png");
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: 20px;    
+        }
+    
+    
+    .tel{
+        padding: 0px 0px 2px 25px;
+        list-style: none;
+        background-image: url("./imgs/simbolotelefone.png");
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: 20px;
+
+    }
+    .email{
+        padding: 0px 0px 2px 25px;
+        list-style: none;
+        background-image: url("./imgs/simboloemail.png");
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: 20px;
+
+    }
+    .somos{
+        padding-left:1% ; 
+        padding-right:1% ; 
+        padding-top:0.8% ; 
+        padding-bottom:0.8% ; 
+        text-align: center;
+        font-size: 9px;
+        list-style: none;
+        color:black;
+        font-family: dark2;
+        background-color:rgb(222,185,89);
+        background-repeat: no-repeat;
+        background-size: 25px;
+        height: auto;
+        width: 50px;
+        position: relative;
+        left: 5%;
+
+    }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .pata{
+        height: 55px;
+        width: 65px;
+    }
 
 
 
